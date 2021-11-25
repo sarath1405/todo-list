@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Poppins:wght@400&family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #EEEEEE;
+    font-family: EB Garamond;
+}
+
+body {
+    background: linear-gradient(to left top, #222831, #393E46) fixed;
+    background-repeat: no-repeat;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    color: #EEEEEE;
+}
+
+#header {
+    margin-top: 1.5%;
+    margin-left: 3%;
+    font-family:EB Garamond;
+    letter-spacing: 1px;
+}
+
+#items {
+    margin-top: 2%;
+    margin-right: 3%;
+}
+
+#items {
+    display: flex;
+}
+
+#items a {
+    margin-right: 25px;
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size: large;
+    letter-spacing: 0.7px;
+    font: EB Garamond;
+}
+
+#items a:hover {
+    text-decoration: underline;
+}
+
+#container {
+    width: 500px;
+    border: 0px solid black;
+    border-radius: 5px;
+    padding: 4% 4%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-top: 3%;
+    background-color: #222831;
+    overflow: auto;
+}
+
+#box {
+    background-color: #393E46;
+    padding: 10% 6%;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+#box input {
+    margin-top: 10px;
+    margin-left: 0px;
+    height: 5vh;
+    width: 40vh;
+    border-radius: 5px;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
+#adding {
+    display: flex;
+    justify-content: space-between;
+}
+
+#adding button {
+    color: black;
+    margin-top: 10px;
+    margin-left: 5px;
+    height: 5vh;
+    width: 10vh;
+    font-size: large;
+    font-weight:bold;
+    border-radius: 5px;
+}
+
+
+#adding button:hover {
+    cursor: pointer;
+    background-color: #b9b9b9;
+}
+
+ol {
+    width: 500px;
+    border: 0px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+ol li {
+    color: black;
+    cursor: pointer;
+    position: relative;
+    padding-left: 20px;
+    font-weight: bold;
+    list-style-type: none;
+    background: #eee;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: 0.2s;
+    user-select: none;
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    height: 40px;
+}
+
+
+ol li button {
+    margin: 0;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 4px 10px;
+    font-family:sans-serif;
+    border-radius: 5px;
+    margin-right: 10px;
+    background: transparent;
+    border: none;
+    cursor:pointer;
+    padding: 8px 12px;
+}
+
+ol li button:hover {
+    background-color: grey;
+    transition: 0.2s;
+}
+
+ol li:nth-child(odd) {
+    background: #bfc5c7;
+}
+
+ol li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+
+
